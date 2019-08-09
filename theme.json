@@ -1,7 +1,8 @@
 {
-    "id": "nodebb-theme-slick",
-    "name": "Slick theme",
-    "description": "Slick theme for NodeBB",
-    "url": "https://github.com/pichalite/nodebb-theme-slick",
-    "screenshot": "screenshot.png"
+    "id": "nodebb-theme-bushwalking-system",
+    "name": "Bushwalking System theme",
+    "description": "Bushwalking System theme for NodeBB",
+    "url": "https://github.com/stackful-au/nodebb-theme-bushwalking-system",
+    "screenshot": "screenshot.png",
+    "baseTheme": "nodebb-theme-slick"
 }
