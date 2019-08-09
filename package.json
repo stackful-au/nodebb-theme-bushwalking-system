@@ -1,32 +1,33 @@
 {
-  "name": "nodebb-theme-slick",
-  "version": "1.2.26",
+  "name": "nodebb-theme-bushwalking-system",
+  "version": "1.0.0",
   "nbbpm": {
     "compatibility": "^1.11.0"
   },
-  "description": "Slick theme for NodeBB",
+  "description": "Bushwalking System theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pichalite/nodebb-theme-slick.git"
+    "url": "git+https://github.com/stackful-au/nodebb-theme-bushwalking-system.git"
   },
   "keywords": [
     "nodebb",
     "slick",
+    "bushwalking system",
     "theme",
     "themes"
   ],
   "author": {
-    "name": "pichalite",
-    "email": "pichalite.com@gmail.com"
+    "name": "stackful-au",
+    "email": "hello@stackful.com.au"
   },
   "bugs": {
-    "url": "https://github.com/pichalite/nodebb-theme-slick/issues"
+    "url": "https://github.com/stackful-au/nodebb-theme-bushwalking-system/issues"
   },
   "maintainers": [
     {
-      "name": "pichalite",
-      "email": "pichalite.com@gmail.com"
+      "name": "stackful-au",
+      "email": "hello@stackful.com.au"
     }
   ]
 }
