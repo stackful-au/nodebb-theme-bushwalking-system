@@ -1,5 +1,5 @@
 {
-  "name": "@stackfulau/nodebb-theme-bushwalking-system",
+  "name": "nodebb-theme-bushwalking-system",
   "version": "1.0.0",
   "nbbpm": {
     "compatibility": "^1.11.0"
