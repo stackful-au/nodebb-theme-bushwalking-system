@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-theme-bushwalking-system",
+  "name": "@stackfulau/nodebb-theme-bushwalking-system",
   "version": "1.0.0",
   "nbbpm": {
     "compatibility": "^1.11.0"
@@ -17,17 +17,19 @@
     "theme",
     "themes"
   ],
-  "author": {
-    "name": "stackful-au",
-    "email": "hello@stackful.com.au"
-  },
+  "author": "stackful-au <hello@stackful.com.au>",
   "bugs": {
     "url": "https://github.com/stackful-au/nodebb-theme-bushwalking-system/issues"
   },
   "maintainers": [
-    {
-      "name": "stackful-au",
-      "email": "hello@stackful.com.au"
-    }
-  ]
+    "stackful-au <hello@stackful.com.au>"
+  ],
+  "homepage": "https://github.com/stackful-au/nodebb-theme-bushwalking-system#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
