@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-bushwalking-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "nbbpm": {
     "compatibility": "^1.11.0"
   },
