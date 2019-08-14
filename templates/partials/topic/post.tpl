@@ -10,7 +10,7 @@
 		<!-- IF !reputation:disabled -->
 		<div class="votes pull-right">
 			<a component="post/upvote" href="#" class="<!-- IF posts.upvoted -->upvoted<!-- ENDIF posts.upvoted -->">
-				<i class="fa fa-chevron-up"></i>
+				<i class="fa fa-<!-- IF posts.upvoted -->heart<!-- ELSE -->heart-o<!-- ENDIF posts.upvoted -->"></i>
 			</a>
 
 			<span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
@@ -67,7 +67,11 @@
 				<a component="post/quote" href="#" class="no-select <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">[[topic:quote]]</a>
 			</div>
 
-			<!-- IMPORT partials/topic/post-menu.tpl -->
+			<div component="post/tools" class="dropdown moderator-tools bottom-sheet <!-- IF !posts.display_post_menu -->hidden<!-- ENDIF !posts.display_post_menu -->">
+	<a href="#" data-toggle="dropdown"><i class="fa fa-fw fa-ellipsis-v"></i></a>
+	<ul class="dropdown-menu dropdown-menu-right" role="menu"></ul>
+</div>
+
 		</div>
 	</div>
 </div>
